@@ -79,7 +79,7 @@ def update_employee(id):
 
 @app.route('/')
 def home():
-    return '✅ Employee Management API is running!'
+    return 'Employee Management API is running!'
 
 
 if __name__ == '__main__':
